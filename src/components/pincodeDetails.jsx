@@ -42,7 +42,7 @@ const PincodeDetails = () => {
       office.Name.toLowerCase().includes(search.toLowerCase())
     ) || [];
 
-  return (
+  return (   
     <>
       {isVisible && (
         <div className="mainContainer">
